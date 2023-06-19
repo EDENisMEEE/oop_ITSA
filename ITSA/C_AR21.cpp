@@ -28,7 +28,7 @@ int main(){
         tot += (students[i].chinese + students[i].eng + students[i].math);
     }
     totavg = round(((double)tot / (num * 3))*10)/10;
-    cout << "num = " << (double)tot / (num * 3) << endl;
+ //   cout << "num = " << (double)tot / (num * 3) << endl;
     chavg = round(((double)chtot / num)*10)/10;
     engavg = round(((double)engtot / num )*10)/10;
     mathavg = round(((double)mathtot /num)*10)/10;
